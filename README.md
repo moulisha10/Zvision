@@ -19,7 +19,6 @@ Metric	Value
 Accuracy	89.77%
 Precision	83.43%
 Recall	99.07%
-🏗️ System Architecture
 
 Flow:
 User uploads an image on the React frontend
@@ -27,6 +26,7 @@ Frontend sends the image to Express backend (/api/predict)
 Express forwards the image to the FastAPI ML service
 ML service runs the CNN model and returns label + confidence
 Result is displayed on the frontend
+
 🛠️ Tech Stack
 Layer	Technology
 Frontend	React, Vite, Tailwind CSS, Axios
