@@ -36,34 +36,6 @@ Model	Modified CNN (GAP + Dropout)
 Dataset	CIFAKE (60k Real + 60k Fake)
 Deployment	Vercel (Frontend), Render (Backend + ML)
 
-📁 Project Structure
-xtragrad-major-project/
-├── frontend/                 # React + Tailwind (Vercel)
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── App.jsx
-│   └── package.json
-│
-├── backend/                  # Express.js (Render)
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── routes/
-│   │   ├── middleware/
-│   │   ├── services/
-│   │   └── server.js
-│   └── package.json
-│
-└── ml-service/               # FastAPI + TensorFlow (Render)
-├── app/
-│   ├── model/
-│   │   ├── load_model.py
-│   │   ├── predict.py
-│   │   └── cifake_model.keras
-│   └── main.py
-└── requirements.txt
-
 🚀 How to Run Locally
 Prerequisites
 Node.js 18+
