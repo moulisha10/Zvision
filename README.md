@@ -35,6 +35,7 @@ ML Service	Python, FastAPI, TensorFlow, Pillow
 Model	Modified CNN (GAP + Dropout)
 Dataset	CIFAKE (60k Real + 60k Fake)
 Deployment	Vercel (Frontend), Render (Backend + ML)
+
 📁 Project Structure
 xtragrad-major-project/
 ├── frontend/                 # React + Tailwind (Vercel)
